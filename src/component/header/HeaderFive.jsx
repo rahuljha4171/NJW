@@ -191,8 +191,7 @@ class HeaderFive extends Component {
 
                       </li>
                       <li className="has-droupdown">
-                        <Link to="/blog">Blogs</Link>
-
+                        <a href="https://blog.notjustwebsite.com" rel="noopener noreferrer">Blogs</a>
                       </li>
                       <li>
                         <Link to="/contact">Contact</Link>

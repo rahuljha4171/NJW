@@ -258,8 +258,9 @@ class Home extends Component {
                             <div className="col-lg-9">
                                 <div className="row">
                                     <div className="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, nesciunt unde repudiandae cupiditate magnam quia assumenda, a eos sed nobis accusamus architecto eum consequatur ipsum exercitationem dolores debitis error.
-                                            Voluptatem iusto reprehenderit labore quia repudiandae voluptas eum fugit blanditiis quod obcaecati minus, est, illum nemo! Quo ducimus saepe, blanditiis qui, voluptatum recusandae optio distinctio perspiciatis quod tempore ut veritatis.</p>
+                                        <p>We focus on understanding our clients' business goals before making decisions.
+                                            A beautiful website is useless if it doesn't help you achieve your objectives.
+                                            We discuss your needs, listen carefully, and then offer plenty of suggestions for improvement.</p>
 
                                     </div>
                                 </div>
@@ -287,13 +288,12 @@ class Home extends Component {
                             <div className="col-lg-6">
                                 <div className="section-title">
                                     <h2>Our Portfolio</h2>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <Carousel interval={3000} pause={false} /* Adjust interval (in milliseconds) as needed */>
+                        <Carousel interval={3000} pause={false}>
                             {testimonials.map(testimonial => (
                                 <Carousel.Item key={testimonial.id}>
                                     <div className="testimonial-container">
@@ -309,9 +309,25 @@ class Home extends Component {
                             ))}
                         </Carousel>
                     </div>
-
-
                 </div>
+
+                <div className="new-section ptb--50 bg_color--3">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                                <a className="rn-button-style--2 btn-solid" href="/new-action">
+                                    Free Consultation
+                                </a>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                                <h2 className="title">
+                                    Let's Connect
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 
 

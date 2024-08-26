@@ -18,18 +18,14 @@ const SocialShare = [
 const FooterTwo = () => {
   return (
     <div className="footer-style-2">
-
-      <div
-        className=" ptb--30 bg_image bg_image--35"
-        data-black-overlay="6"
-      >
+      <div className="ptb--30 bg_image bg_image--33" data-black-overlay="6">
         <div className="wrapper plr--50 plr_sm--20">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
               <div className="inner">
-                <div className="logo text-center text-sm-left mb_sm--20">
+                <div className="logo text-center align-items-center text-sm-left mb_sm--20">
                   <a href="/home-one">
-                    <img src={logo} alt="Logo images" />
+                    <img src={logo} alt="Logo images" className="footer-logo" />
                   </a>
                 </div>
               </div>
@@ -39,17 +35,18 @@ const FooterTwo = () => {
                 <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                   {SocialShare.map((val, i) => (
                     <li key={i}>
-                      <a href={`${val.link}`}>{val.Social}</a>
+                      <a href={val.link} className="social-icon">
+                        {val.Social}
+                      </a>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-      <div className="bg_color--4">
+      <div className="bg_color--dark">
         <div className="text-center ptb--10 mt_md--20 mt_sm--20">
           <div className="text">
             <p>Copyright © 2024 Not Just Website. All Rights Reserved.</p>
@@ -59,4 +56,5 @@ const FooterTwo = () => {
     </div>
   );
 };
+
 export default FooterTwo;

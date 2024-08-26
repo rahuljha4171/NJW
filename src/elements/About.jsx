@@ -18,9 +18,9 @@ import teamImg3 from "../assets/images/team/team-03.jpg";
 
 class About extends Component {
   render() {
-    let title = "About",
+    let title = "About Us",
       description =
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.";
+        "NotJustWebsite, based in Maryland, is a digital marketing agency specializing in small and medium-sized businesses. Our innovative and dedicated team has international experience and field-proven methodologies. With decades of experience in engineering, management, hardware, software, and systems, we offer strategic solutions to any problem, ensuring the highest ROI (Return on Investment).";
     return (
       <React.Fragment>
         <PageHelmet pageTitle="About" />

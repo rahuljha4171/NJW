@@ -5,3 +5,82 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+
+// Added Code
+
+a {
+    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+.footer-style-2 {
+
+    .footer-logo {
+        max-width: 150px; // Adjust the size of the logo
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1); // Slightly enlarge the logo on hover
+        }
+    }
+
+    .social-icon {
+        color: #f4f4f4; // Default color for social icons
+        font-size: 20px; // Adjust the size of the social icons
+        transition: color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            border-color: #ffffff;
+            color: #ffffff; // Change color on hover
+            transform: scale(1.2); // Slightly enlarge the icon on hover
+        }
+    }
+
+    .bg_color--dark {
+        background-color: #333;
+    }
+}
+
+.testimonial-section {
+    position: relative;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+
+    .testimonial-container {
+        position: relative;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        .quote {
+            font-size: 18px;
+            font-style: italic;
+            color: #333;
+            margin-bottom: 20px;
+            width: 75%;
+        }
+
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .reviewer {
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+        }
+    }
+}
