@@ -2,7 +2,7 @@
   "name": "NotJustWebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trydo.rainbowit.net",
+  "homepage": "http://notjustwebsite.com",
   "basename": "/",
   "dependencies": {
     "@svgr/webpack": "4.1.0",
