@@ -58,6 +58,13 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import DigitalMarketingDetails from "./pages/digitalMarketing";
+import BookkeepingDetails from "./pages/bookkeepingService";
+import BusinessCoachingDetails from "./pages/businessCoaching";
+import HRServicesDetails from "./pages/hrService";
+import PayrollServicesDetails from "./pages/payrollService";
+import PricingDetails from "./pages/pricing";
+import WhyUs from "./pages/whyUs";
 
 class Root extends Component {
   render() {
@@ -261,6 +268,44 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/pricing-table`}
               component={PricingTable}
             />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/digital-marketing`}
+              component={DigitalMarketingDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/bookkeeping-service`}
+              component={BookkeepingDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/business-coaching`}
+              component={BusinessCoachingDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/hr-services`}
+              component={HRServicesDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/payroll-services`}
+              component={PayrollServicesDetails}
+            />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/pricing`}
+              component={PricingDetails}
+            />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/why-us`}
+              component={WhyUs}
+            />
+
 
             <Route
               path={`${process.env.PUBLIC_URL}/404`}

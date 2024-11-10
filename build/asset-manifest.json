@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e0ddbbb1.css",
-    "main.js": "/static/js/main.20335880.js",
+    "main.js": "/static/js/main.011f8302.js",
     "static/media/video.mp4": "/static/media/video.f8f586d853f3b91debbe.mp4",
     "static/media/contact-us.jpg": "/static/media/contact-us.35dc54673c58c32d62cc.jpg",
     "static/media/bg-image-33.jpg": "/static/media/bg-image-33.2be33ffa06afb01f8b3f.jpg",
@@ -15,7 +15,17 @@
     "static/media/bg-image-31.jpg": "/static/media/bg-image-31.34ff2869bd26198c8438.jpg",
     "static/media/big-logo.png": "/static/media/big-logo.2aecf12b3e6970c42f8c.png",
     "static/media/pattern-1.png": "/static/media/pattern-1.684928c6dd791afe1081.png",
+    "static/media/bookkeeping-01.jpg": "/static/media/bookkeeping-01.ec4b315a09178c474a75.jpg",
+    "static/media/payroll-01.jpg": "/static/media/payroll-01.b57b6fc265d4246ae7b1.jpg",
+    "static/media/business-coaching-02.jpg": "/static/media/business-coaching-02.a75565577f42a302da3b.jpg",
+    "static/media/bookkeeping-02.jpg": "/static/media/bookkeeping-02.8384449e106bd5634d40.jpg",
+    "static/media/payroll-02.jpg": "/static/media/payroll-02.e0019b64da9c6ed8e57e.jpg",
     "static/media/blog-thumb-01.jpg": "/static/media/blog-thumb-01.28ae54053ea4f3f9ebe4.jpg",
+    "static/media/digital-01.jpg": "/static/media/digital-01.9800afe1d0dd122dd5c8.jpg",
+    "static/media/business-coaching-01.jpg": "/static/media/business-coaching-01.12e75920c88e3d702e95.jpg",
+    "static/media/hr-02.jpg": "/static/media/hr-02.c665a9e81897b7325176.jpg",
+    "static/media/hr-01.jpg": "/static/media/hr-01.f58676648c58d7624b14.jpg",
+    "static/media/digital-02.jpg": "/static/media/digital-02.28768dd5cb72b25d4f4c.jpg",
     "static/media/bg-image-11.jpg": "/static/media/bg-image-11.61ce8c409b3bd8a086da.jpg",
     "static/media/bg-image-13.jpg": "/static/media/bg-image-13.61ce8c409b3bd8a086da.jpg",
     "static/media/bg-image-12.jpg": "/static/media/bg-image-12.905218e27cb80329becc.jpg",
@@ -78,10 +88,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.e0ddbbb1.css.map": "/static/css/main.e0ddbbb1.css.map",
-    "main.20335880.js.map": "/static/js/main.20335880.js.map"
+    "main.011f8302.js.map": "/static/js/main.011f8302.js.map"
   },
   "entrypoints": [
     "static/css/main.e0ddbbb1.css",
-    "static/js/main.20335880.js"
+    "static/js/main.011f8302.js"
   ]
 }

@@ -73,8 +73,8 @@ class HeaderFive extends Component {
                 <div className="header-right justify-content-end">
                   <nav className="mainmenunav d-lg-block">
                     <ul className="mainmenu">
-                      <li className="has-droupdown">
-                        <Link to="#">Home</Link>
+                      <li>
+                        <Link to="/">Home</Link>
                         {/* <ul className="submenu">
                           <li>
                             <Link to="/main-demo">Main Demo</Link>
@@ -159,7 +159,7 @@ class HeaderFive extends Component {
                       </li>
 
                       <li className="has-droupdown">
-                        <Link to="#pricing">Pricing</Link>
+                        <Link to="/pricing">Pricing</Link>
                         {/* <ul className="submenu">
                           <li>
                             <Link to="/blog">Blog</Link>
@@ -187,7 +187,7 @@ class HeaderFive extends Component {
                         </ul> */}
                       </li>
                       <li className="has-droupdown">
-                        <Link to="#">Why Us</Link>
+                        <Link to="/why-us">Why Us</Link>
 
                       </li>
                       <li className="has-droupdown">

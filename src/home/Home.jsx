@@ -46,25 +46,25 @@ const SlideList = [
 const ServiceListOne = [
     {
         icon: <FiCast />,
-        title: "Business Stratagy",
+        title: "Digital Marketing",
         description:
             "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     },
     {
         icon: <FiLayers />,
-        title: "Website Development",
+        title: "Bookkeeping Service",
         description:
             "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     },
     {
         icon: <FiUsers />,
-        title: "Marketing & Reporting",
+        title: "Payroll Service",
         description:
             "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     },
     {
         icon: <FiCast />,
-        title: "Business Stratagy",
+        title: "HR Service",
         description:
             "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     },
@@ -207,8 +207,8 @@ class Home extends Component {
                     <div className="section-title">
                         <h2 className="title">Services</h2>
                         <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but.
+                            Our services offer expert solutions in digital marketing, bookkeeping, HR, and business coaching for growth.
+
                         </p>
 
                     </div>
@@ -219,22 +219,78 @@ class Home extends Component {
                 <div className="service-area ptb--30 bg_color--1">
                     <div className="container">
                         <div className="row service-one-wrapper">
-                            {ServiceListOne.map((val, i) => (
-                                <div
-                                    className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                                    key={i}
-                                >
-                                    <a className="text-center" href="/service-details">
-                                        <div className="service service__style--2">
-                                            <div className="icon">{val.icon}</div>
-                                            <div className="content">
-                                                <h3 className="title">{val.title}</h3>
-                                                <p>{val.description}</p>
-                                            </div>
+                            <div
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+
+                            >
+                                <a className="text-center" href="/digital-marketing">
+                                    <div className="service service__style--2">
+                                        <div className="icon"><FiCast /></div>
+                                        <div className="content">
+                                            <h3 className="title">Digital Marketing</h3>
+                                            <p>Digital Marketing uses online channels to promote brands, engage audiences, and drive business growth.</p>
                                         </div>
-                                    </a>
-                                </div>
-                            ))}
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+
+                            >
+                                <a className="text-center" href="/bookkeeping-service">
+                                    <div className="service service__style--2">
+                                        <div className="icon"><FiLayers /></div>
+                                        <div className="content">
+                                            <h3 className="title">Bookkeeping Service</h3>
+                                            <p>Efficiently manage financial records with accurate transaction tracking, reconciliation, and comprehensive financial reporting.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+
+                            >
+                                <a className="text-center" href="/business-coaching">
+                                    <div className="service service__style--2">
+                                        <div className="icon"><FiLayers /></div>
+                                        <div className="content">
+                                            <h3 className="title">Business Coaching</h3>
+                                            <p>Business coaching helps businesses achieve goals through personalized guidance and strategic development.                           </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+
+                            >
+                                <a className="text-center" href="/hr-services">
+                                    <div className="service service__style--2">
+                                        <div className="icon"><FiCast /></div>
+                                        <div className="content">
+                                            <h3 className="title">HR Services</h3>
+                                            <p>HR Services optimize workforce management through recruitment, training, compliance, and performance management solutions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+
+                            >
+                                <a className="text-center" href="/payroll-services">
+                                    <div className="service service__style--2">
+                                        <div className="icon"><FiUsers /></div>
+                                        <div className="content">
+                                            <h3 className="title">Payroll Service</h3>
+                                            <p>Efficient payroll services ensure accurate employee payments, compliance, and streamlined payroll management for businesses.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
